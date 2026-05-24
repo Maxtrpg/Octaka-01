@@ -44,7 +44,7 @@
 
         /* --- 主畫布區 --- */
         #viewer-area { flex: 1; position: relative; width: 100%; height: 100%; overflow: hidden; }
-        .scene-background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('map/market.webp'); background-size: cover; background-position: center; filter: brightness(0.45); z-index: 0; transform: scale(1.02); }
+        .scene-background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('MAP/market.webp'); background-size: cover; background-position: center; filter: brightness(0.45); z-index: 0; transform: scale(1.02); }
         .game-ui { position: relative; z-index: 10; width: 100%; height: 100%; display: flex; justify-content: space-between; }
         
         /* === 左側：動態展示區 === */
@@ -162,15 +162,15 @@ const npcData = {
         marantzi: {
             name: "瑪蘭齊",
             title: "珍寶商",
-            img: "npc/marantzi.webp",
+            img: "NPC/marantzi.webp",
             isHorizontal: true, 
-            bg: "map/marantzi_bg.webp", // 🌟 新增：瑪蘭齊的專屬帳篷內景圖片路徑
+            bg: "MAP/marantzi_bg.webp", // 🌟 新增：瑪蘭齊的專屬帳篷內景圖片路徑
             story: "廣場上一座顯眼的暗紅色大帳篷。這裡與周圍的破爛攤位截然不同，透著一股奢華氣息。推開帳篷垂下的絲綢門簾，一股甜膩且昂貴的煙味撲面而來。一位穿著華麗、與周遭髒亂環境格格不入的中年女子。身上戴著沉甸甸的綠松石與黃金飾品，抽著一根長長的煙管。<br><br><strong>【情報】</strong>「喲，又是一批被特拉卡騙去送死的新面孔。」「說吧，你們是來買命，還是來賣命的？」。<br>能夠在這裡買到高級的貨物，也可以在這裡出售「好東西」。"
         },
         itzli: {
             name: "伊茲利",
             title: "獵人雜貨商",
-            img: "npc/itzli.webp",
+            img: "NPC/itzli.webp",
             isHorizontal: false,
             bg: null,
             story: "臉上有一道貫穿左眼的可怕傷疤。攤位上有許多雜貨，肩上站著一隻叢林獼猴。<br><br><strong>【情報】</strong>🔒（未曾深入交談）"
@@ -178,7 +178,7 @@ const npcData = {
         xico: {
             name: "錢莊老闆 (🔒)",
             title: "錢莊與香料商",
-            img: "npc/xico.webp",
+            img: "NPC/xico.webp",
             isHorizontal: false,
             bg: null,
             story: "🔒"
@@ -186,7 +186,7 @@ const npcData = {
         comai: {
             name: "科麥",
             title: "蔬果商",
-            img: "npc/comai.webp",
+            img: "NPC/comai.webp",
             isHorizontal: false,
             bg: null,
             story: "皮膚黝黑、笑容滿面的老農夫。攤位上堆滿了色澤飽滿的金黃玉米與南瓜。<br><br><strong>【情報】</strong>🔒（未曾深入交談）"
@@ -194,7 +194,7 @@ const npcData = {
         tonaca: {
             name: "托納卡",
             title: "肉販",
-            img: "npc/tonaca.webp",
+            img: "NPC/tonaca.webp",
             isHorizontal: false,
             bg: null,
             story: "身高近兩公尺的魁梧巨漢，胸前的厚重皮圍裙沾滿了血跡。攤位掛滿了新鮮的鹿肉、野豬肉與叢林禽類。<br><br><strong>【情報】</strong>🔒（未曾深入交談）"
